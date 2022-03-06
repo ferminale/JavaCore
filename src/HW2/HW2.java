@@ -14,7 +14,7 @@ public class HW2 {
             }
         }
         catch (MyArrayDataException e) {
-            System.out.println("Неправильное значение в массиве!!");
+            System.out.println("Неправильное значение в массиве!");
             System.out.println("Ошибка в ячейке: " + (e.i + 1) + "x" + (e.j + 1));
         }
 
