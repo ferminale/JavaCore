@@ -10,11 +10,11 @@ public class HW2 {
                 int result = methodArray(arr);
                 System.out.println(result);
             } catch (MyArraySizeException e) {
-                System.out.println("Размер массива превышен!");
+                System.out.println("Размер массива превышен! Введите корректные значения массива (4х4)");
             }
         }
         catch (MyArrayDataException e) {
-            System.out.println("Неправильное значение массива!");
+            System.out.println("Неправильное значение в массиве!");
             System.out.println("Ошибка в ячейке: " + (e.i + 1) + "x" + (e.j + 1));
         }
 
