@@ -4,7 +4,7 @@ import java.util.*;
 
 public class HW4 {
     public static void main(String[] args) {
-        String[] fruit = {"one", "two", "three", "four", "four", "five", "six", "four", "seven", "nine", "one"};
+        String[] fruit = {"one", "two", "three", "four", "four", "five", "six", "four", "seven", "nine", "ten"};
         HashMap<String, Integer> fetus = new HashMap<>();
         for (String x : fruit) {
             fetus.put(x, fetus.getOrDefault(x,0)+1);
