@@ -12,7 +12,7 @@ public class HW4 {
         System.out.println(fetus);
 
         Phonebook book = new Phonebook();
-        book.addContact("Сергей", "9991113323");
+        book.addContact("Сергей", "9991113322");
         book.addContact("Абрикос", "9992224433");
         book.addContact("Нина", "9993334433");
         book.addContact("Нина", "9994445555");
