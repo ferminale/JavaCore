@@ -17,6 +17,6 @@ public class Phonebook {
     }
 
     public void getContact(String name) {
-        System.out.println("Контакт " + name + ", Номер телефона: " + pb.getOrDefault(name, new HashSet<>()));
+        System.out.println("Контакт " + name + ", Номер телефона:  " + pb.getOrDefault(name, new HashSet<>()));
     }
 }
